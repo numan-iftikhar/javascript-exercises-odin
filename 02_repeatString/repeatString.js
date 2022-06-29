@@ -1,7 +1,8 @@
 const repeatString = function (str, times) {
-  let n = 0;
+  if (times < 0) return 'ERROR';
+  
   let finalStr = "";
-  while (n < times) {
+  for(let i=0; i<times; i++) {
     finalStr += str;
   }
 
