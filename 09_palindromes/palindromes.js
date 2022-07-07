@@ -3,8 +3,10 @@ const palindromes = function (str) {
 
   return processedStr.split("").reverse().join("") === processedStr;
 
+  
+
   /*
-    ALTERNATE: Using two pointer approach
+    ! ALTERNATE: Using two pointer approach
 
     let processedStr = str.toLowerCase().replace(/[^a-z]/g, "");
 
